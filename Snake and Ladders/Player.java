@@ -12,6 +12,7 @@ public class Player {
     path.add(pos);
   }
   public void getPath() {
+    System.out.println(name+" ");
     for (Integer i : path) {
       System.out.print(i+" ");
     }
